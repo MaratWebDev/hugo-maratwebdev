@@ -1,0 +1,123 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Hugo Creative Theme"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "MaratWebDev"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Skills"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "About Marat"
+		subtitle   = "Changed career for bringing joy & creating someone else’s dreams in the web. </br> You might possibly see me in the local WordPress and JS meetUps, but curious about everything Web really, Web VR, Augmented Reality. </br> Web Performance and Accessibility have a special place in my heart. </br> General Assembly & Treehouse alumni. </br> I have worked on eCommerce and portfolio websites."
+	#	buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Testimonials"
+		description = "'Marat has been my right-hand man during the complete redevelopment of my website (www.asafirth.se) and throughout the very intensive work period he has communicated brilliantly and delivered on time. It's been an absolute pleasure to work together, and I would recommend Marat to anyone who is looking for a communicative and skilled web developer with a really positive and solution-focused outlook.' </br> </br> Åsa Firth </br> Mental tränare, livscoach och Lightning Process instruktör."
+	#	buttonText  = "Get started!"
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-code"
+            title = "Front-end Developement"
+            description = "It's responsive, up to date, watching closely best practices and love JavaScript."
+
+		[[params.services.list]]
+			icon = "fa-wordpress"
+			title = "WordPress Developement"
+			description = "Providing You with a Content Management System which allows full management of the site’s content."
+
+
+		[[params.services.list]]
+            icon = "fa-users"
+            title = "Custom Development & Functionality"
+            description = "Custom web development, making your website more unique and beneficial to your business needs."
+        
+		
+		[[params.services.list]]
+            icon = "fa-compress"
+            title = "Web Optimisation"
+            description = "Updating dependencies to keep things fresh & running fast. Up to date with new technologies."
+
+	#[[params.services.list]]
+     #       icon = "fa-heart"
+     #       title = "Made with Love"
+      #      description = "You have to make your websites with love these days!"
+		
+		
+	#	[[params.services.list]]
+     #       icon = "fa-newspaper-o"
+      #      title = "WooCommerce & Payment systems Integration"
+     #       description = "WooCommerce is essential part of WordPress for your store. I can help customize your cart pages, as well as guiding you to the best payments system available. "
+
+	
+        
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	#[params.aside]
+		#headline = "Get the Creative Theme for Hugo"
+
+		#[params.aside.button]
+			#text = "Download now"
+			#link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Get In Touch!"
+	#	description = "You can contact Me!"
+	#	phone = "07714433446"
+		email = "maratfaizov83@gmail.com"
+		twitter = "@MaratFaz"
+		github = "MaratWebDev"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

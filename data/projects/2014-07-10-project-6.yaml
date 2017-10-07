@@ -1,0 +1,8 @@
+modalID: 6
+title: Cocktails and kitchen
+#date: 2016
+img: cocktails.png
+client: MaratWebDev
+clientLink: "http://maratwebdev.github.io/cocktails-and-kitchen/"
+category: Web Development
+description: Final  project for the General Assembly Front End Development course. It’s a website about drinks made at home, without special bar equipment. </br> - Responsive web design. </br> - Adding filtering content functionality. </br> - Offset navigation.

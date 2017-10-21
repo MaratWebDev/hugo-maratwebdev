@@ -5,4 +5,4 @@ img: dancewithlife-hugoready.png
 client: Åsa Firth (Currently Offline)
 clientLink: "#"
 category: Web Development
-description: <h4> Wordpress website for client web performance optimisation and restyling.</h4> - Removing some render-blocking JavaScript. </br> - Optimise CSS delivery. </br> - Reduce server response time. </br> Leverage browser caching. </br> - Possibly minify both JavaScript and CSS. </br> - Providing support with maintaining and running afterwards.
+description: <h4> Wordpress website for client web performance optimisation and restyling.</h4> - Removing some render-blocking JavaScript. </br> - Optimisation CSS delivery. </br> - Reducing page loading time. </br> Leverage browser caching. </br>  - Providing support with maintaining and running afterwards.

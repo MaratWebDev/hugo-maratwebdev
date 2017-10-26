@@ -58,12 +58,12 @@ googleAnalytics = ""
 
         [[params.services.list]]
             icon = "fa-code"
-            title = "Front-end Developement"
+            title = "Front-end Development"
             description = "It's responsive, up to date, watching closely best practices and love JavaScript."
 
 		[[params.services.list]]
 			icon = "fa-wordpress"
-			title = "WordPress Developement"
+			title = "WordPress Development"
 			description = "Providing You with a Content Management System which allows full management of the site’s content."
 
 

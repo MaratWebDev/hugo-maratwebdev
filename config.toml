@@ -44,8 +44,8 @@ googleAnalytics = ""
 		slogan     = "About Marat"
 		subtitle   = "Changed career for bringing joy & creating someone else’s dreams in the web. </br> You might possibly see me in the local WordPress and JS meetUps, but curious about everything Web really, Web VR, Augmented Reality. </br> Web Performance and Accessibility have a special place in my heart. </br> General Assembly & Treehouse alumni. </br> I have worked on eCommerce and portfolio websites."
 	#	buttonText = "Find out more"
-
-
+	
+	
 	# About section
 	[params.about]
 		headline    = "Testimonials"
